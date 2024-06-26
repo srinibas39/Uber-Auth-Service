@@ -26,4 +26,5 @@ public class AuthController {
         PassengerDto passenger = authService.signupPassenger(request);
         return new ResponseEntity<>(passenger, HttpStatus.CREATED);
     }
+
 }
